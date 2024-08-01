@@ -25,7 +25,6 @@ const routerCriado = createBrowserRouter (
     {
 
       //Conteudo principal e seus filhos
-      path: '/api-blog-react/',
       element: <App />,
   
       //rotas do site, paginas.
