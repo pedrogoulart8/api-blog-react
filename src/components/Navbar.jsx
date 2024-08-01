@@ -16,10 +16,10 @@ const Navbar = () => {
                     <Link to={'/api-blog-react/'} >Home</Link>
                 </li>
                 <li>
-                    <Link to={'/api-blog-react/new'} className='new-btn'>Novo Post</Link>
+                    <Link to={'/new'} className='new-btn'>Novo Post</Link>
                 </li>
                 <li>
-                    < Link to={'/api-blog-react/admin'} >Meu Blog</Link>
+                    < Link to={'/admin'} >Meu Blog</Link>
                 </li>
             </ul>
         </nav>

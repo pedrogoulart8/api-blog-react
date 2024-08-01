@@ -54,7 +54,7 @@ const Home = () => {
             <p>{post.body}</p>
 
             {/*Link utilizado para levar o usuario a um outro componente, que no caso será  a página de cada post unitário, de acordo com seu id*/}
-            <Link className='btn' to={`/api-blog-react/posts/${post.id}`}>Ler mais!</Link>
+            <Link className='btn' to={`/posts/${post.id}`}>Ler mais!</Link>
 
           </div>
         ))
