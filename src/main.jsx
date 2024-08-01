@@ -31,7 +31,7 @@ const routerCriado = createBrowserRouter (
       children: [
   
         {
-          path: '/',
+          path: '/api-blog-react/',
           element: <Home />
         },
   
