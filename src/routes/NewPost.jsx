@@ -22,14 +22,14 @@ const NewPost = () => {
     e.preventDefault()
 
     //Variavel responsável por agrupar titulo e corpo do post adicionados pelo usuario
-    const novoPost = { title, body, userId:1 }
+    const novoPost = { title, body, userId: 1 }
 
     //Utilizado o metodo POST para adicionar na area de postagens do blog (/posts), os dados da const 'novoPost'
     await blogFetch.post('/posts', {
-      body: novoPost
+      body: novoPost,
     })
 
-    navigate('/')
+    navigate('/api-blog-react/')
 
     //OBS: Como trata-se de um projeto de treino com API, apenas enviamos os dados com o metodo POST para testar as requisições. Os dados nao ficam salvos e registrados no site.
 
