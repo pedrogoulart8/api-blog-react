@@ -9,17 +9,17 @@ const Navbar = () => {
 
         <nav className='navbar'>
             <h2>
-                <Link to={'/'}>Blog</Link>
+                <Link to={'/api-blog-react/'}>Blog</Link>
             </h2>
             <ul>
                 <li>
-                    <Link to={'/'} >Home</Link>
+                    <Link to={'/api-blog-react/'} >Home</Link>
                 </li>
                 <li>
-                    <Link to={'/new'} className='new-btn'>Novo Post</Link>
+                    <Link to={'/api-blog-react/new'} className='new-btn'>Novo Post</Link>
                 </li>
                 <li>
-                    < Link to={'/admin'} >Meu Blog</Link>
+                    < Link to={'/api-blog-react/admin'} >Meu Blog</Link>
                 </li>
             </ul>
         </nav>
